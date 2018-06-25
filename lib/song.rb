@@ -44,7 +44,7 @@ class Song
     song = self.create()
     song.artist_name = result[0]
     title = result[1]
-    song.name = title.slice!(title.length-4,title.length)
+    song.name = title.slice!(title.length,title.length-4)
     song
   end
   
