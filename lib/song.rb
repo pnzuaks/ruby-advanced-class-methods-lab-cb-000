@@ -43,7 +43,7 @@ class Song
     result = song.split("-")
     song.artist_name = result[0]
     title = result[1]
-    title.slice!(title.length-3,title.length)
+    song.name = title.slice!(title.length-3,title.length)
     
   end
   
