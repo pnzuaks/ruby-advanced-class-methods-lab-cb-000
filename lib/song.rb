@@ -24,8 +24,8 @@ class Song
     new_song
   end
   
-  def self.find_by_name(song_name)
-    @@all.detect{song_name}
+  def self.find_by_name(name)
+    @@all.detect{name}
   end
   
   attr_accessor :name, :artist_name
