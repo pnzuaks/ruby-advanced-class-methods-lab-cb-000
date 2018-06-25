@@ -29,8 +29,10 @@ class Song
   end
   
   def self.find_or_create_by_name(name)
-    if @@all.detect{name} != nil 
+    if @@all.detect{name} == nil 
       
+    else
+      @@all.detect{name}
     end
   end
   
