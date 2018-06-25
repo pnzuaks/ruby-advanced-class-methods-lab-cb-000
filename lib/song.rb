@@ -39,8 +39,8 @@ class Song
     @@all.sort_by{|song| song.name}
   end
   
-  def self.new_from_filename
-    
+  def self.new_from_filename(song)
+    song.split("-")
   end
   
   attr_accessor :name, :artist_name
