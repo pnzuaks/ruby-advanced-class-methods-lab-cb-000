@@ -29,7 +29,8 @@ class Song
   end
   
   def self.find_or_create_by_name(name)
-    
+    if  
+    end
   end
   
   attr_accessor :name, :artist_name
