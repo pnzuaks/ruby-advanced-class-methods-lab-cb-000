@@ -40,7 +40,7 @@ class Song
   end
   
   def self.new_from_filename(song)
-    result = song.split("-")
+    result = song.split(-)
     song.artist_name = result[0]
     title = result[1]
     song.name = title.slice!(title.length-3,title.length)
