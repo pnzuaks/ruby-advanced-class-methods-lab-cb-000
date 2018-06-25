@@ -45,7 +45,7 @@ class Song
     song.artist_name = result[0]
     title = result[1]
     song.name = title.slice!(title.length-4,title.length)
-    
+    song
   end
   
   attr_accessor :name, :artist_name
