@@ -39,6 +39,9 @@ class Song
     @@all.sort_by{|song| song.name}
   end
   
+  def  
+  end
+  
   attr_accessor :name, :artist_name
  
 
