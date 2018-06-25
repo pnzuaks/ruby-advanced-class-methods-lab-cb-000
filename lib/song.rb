@@ -48,6 +48,14 @@ class Song
     song
   end
   
+  def self.create_from_filename
+    
+  end
+  
+  def self.destroy_all
+    @@all = []
+  end
+  
   attr_accessor :name, :artist_name
  
 
